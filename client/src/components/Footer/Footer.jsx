@@ -32,6 +32,17 @@ export default function Footer() {
         <div className="relative z-10 font-label-caps text-label-caps text-on-surface-variant opacity-50 text-center mt-4">
           &copy; 2024 WTech Circuitry Systems. Todos los derechos reservados.
           Construido para la era del alto rendimiento.
+          <span className="block mt-2">
+            Desarrollado por{" "}
+            <a
+              href="https://wilrd14.dev"
+              target="_blank"
+              rel="noopener"
+              className="underline hover:text-primary dark:hover:text-primary-fixed"
+            >
+              Williams Villavizar
+            </a>
+          </span>
         </div>
       </div>
     </footer>
